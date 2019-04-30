@@ -1,0 +1,34 @@
+{
+  "name": "task_copy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint src/",
+    "start": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandrTichon/task_copy.git"
+  },
+  "author": "Alexanrd Tichon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandrTichon/task_copy/issues"
+  },
+  "homepage": "https://github.com/AlexandrTichon/task_copy#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.16.0",
+    "webpack": "^4.29.4",
+    "webpack-clean-plugin": "^0.2.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "jquery": "^3.4.0"
+  }
+}

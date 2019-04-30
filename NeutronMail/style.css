@@ -306,12 +306,9 @@ ul {
     text-align: right;
     color: #727272;
 
-    /* display: inline;
-    text-align: right; */
 }
 .p__subtitle {
-    /* width: 460px; */
-    /* padding-left: 160px; */
+    
     text-align: right;
     font-size: 24px;
     color: #959393;
@@ -333,7 +330,6 @@ ul {
     content: '';
     position: absolute;
     margin-left: -20%;
-    /* margin-right: 70%; */
     top: 1330px;
     width: 783px;
     height: 1px;
@@ -348,13 +344,11 @@ ul {
     font-size: 16px;
     font-weight: normal;
 }
-/*  */
 .our-clients-logo {
     margin-top: 55px;
     margin-left: 10px;
 }
 
-/*  */
 .about-company {
     margin:50px auto 0 auto;
     width: 1000px;
@@ -429,7 +423,6 @@ ul {
     content: '';
     position: absolute;
     margin-top: 300px;
-    /* top: 860px; */
     width: 1100px;
     height: 1px;
     background-color: #b9b9b9;
@@ -493,7 +486,6 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    /* margin-right: 22.2%; */
 
 }
 .investors__text {
@@ -550,7 +542,6 @@ ul {
     position: absolute;
     width: 1px;
     height: 323px;
-    /* margin-left: 90px; */
     margin-left: 8%;
     margin-top: -118px;
 
@@ -595,11 +586,7 @@ ul {
 
 
 
-/* логин и авториз в столбик. языки в выпадающее меню
-    фичи в столбик
-    спонсоров убрать нахуй
-    в футере сделать резину */
-/* убрать нахуй всё оставить только логотоип */
+
 
 @media screen and (max-width: 1200px) {
     .company__feature:first-child::before ,
@@ -764,7 +751,7 @@ ul {
         font-size: 40px;
     }
     .main__title {
-        text-align: center;
+      text-align: center;
     }
     .main__greating {
         display: flex;
@@ -794,5 +781,4 @@ background: -ms-linear-gradient(-45deg, rgba(88,44,126,1) 0%, rgba(88,44,126,1) 
 background: linear-gradient(135deg, rgba(88,44,126,1) 0%, rgba(88,44,126,1) 47%, rgba(98,118,205,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#582c7e', endColorstr='#6276cd', GradientType=1 );
 }
-
 
