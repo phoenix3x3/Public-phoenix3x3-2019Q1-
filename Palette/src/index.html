@@ -13,7 +13,7 @@
   <header class="header-panel">
     <div class="header-panel__menu-btn" id="menu-btn"></div>
     <div class="header-panel__title-container">
-      <h1 class="header-panel__title-content">CodeJam - Pallite</h1>
+      <h1 class="header-panel__title-content">CodeJam - Palette</h1>
     </div>
   </header>
 
@@ -21,19 +21,38 @@
     <div class="pallite__tools-container">
       <div class="tools-container__figure-tools">
         <div class="figure-tools__backet-tool" id="backet-tool">backet</div>
-        <div class="figue-tools__color-picker-tool" id="color-picker-tool">color-picker</div>
+        <div class="figue-tools__color-picker-tool" id="color-picker-tool">
+          <div class="color-picker-tool__color-holder call-picker" id="color-picker-holder"></div>
+          <div class="color-picker-tool__color-block" id="color-block-picker" style="display: none"></div>
+          <span class="color-picker-tool__title">color picker</span>
+        </div>
         <br>
         <div class="figure-tools__move-tool" id="move-tool">move</div>
         <div class="figure-tools__transform-tool" id="transform-tool">transform</div>
       </div>
+
       <div class="tools-container__color-tools">
-          <div class="color-tools__color-history">
-            <div class="color-history__current-color" id="current-color">currrent color</div>
-            <div class="color_history__prev-color" id="prev-color">prev-color</div>
-            <br>
-            <div class="color_history__predefined-color1" id="predefined-color1">predefined-color1</div>
-            <div class="color_history__predefined-color2" id="predefined-color2">predefined-color2</div>
-          </div>
+        <div class="color-history__current-color" id="current-color">
+          <div class="current-color__color-holder" id="color-current-holder"></div>
+          <div class="current-color__color-block" id="color-block-current" style="display: none"></div>
+          <span class="current-color__title">currrent color</span>
+        </div>
+        <div class="color-history__prev-color" id="prev-color">
+          <div class="current-color__color-holder"></div>
+          <div class="current-color__color-block" id="color-block-prev" style="display: none"></div>
+          <span class="current-color__title">prev-color</span>
+        </div>
+        <br>
+        <div class="color-history__predefined-color1" id="predefined-color1">
+          <div class="current-color__color-holder" id="color-predefined1-holder"></div>
+          <div class="current-color__color-block" id="color-block-predefined1" style="display: none"></div>
+          <span class="current-color__title">predefined-color1</span>
+        </div>
+        <div class="color-history__predefined-color2" id="predefined-color2">
+          <div class="current-color__color-holder" id="color-predefined2-holder"></div>
+          <div class="current-color__color-block" id="color-block-predefined2" style="display: none"></div>
+          <span class="current-color__title">predefined-color2</span>
+        </div>
       </div>
     </div>
     <div class="pallite__canvas-container" id="canvas">
