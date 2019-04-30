@@ -1,17 +1,24 @@
-export default function initCanvas(ctx) {
-  const initFigInterval = 10;
+export default function initCanvas(container) {
+  const elementsInterval = 10;
 
-  // draw init figures
-  ctx.fillStyle = 'gray';
+
+  const circle = document.createElement('div');
+  circle.id = 'circle-1';
+  circle.className = 'circle-element';
+
+  let figureCounter = 0;
+
   for (let i = 0; i < 2; i += 1) {
     for (let j = 0; j < 3; j += 1) {
-      ctx.fillRect((200 + initFigInterval) * j, (200 + initFigInterval) * i, 200, 200);
+      figureCounter += 1;
+
+      const square = document.createElement('div');
+      square.id = `square-${figureCounter}`;
+      square.className = 'square-element';
+      // square.style.top = '50px';
+      container.appendChild(square);
     }
   }
-  ctx.beginPath();
-  ctx.arc(100, 520, 100, 0, 2 * Math.PI);
-  ctx.fill();
-  for (let j = 1; j < 3; j += 1) {
-    ctx.fillRect((200 + initFigInterval) * j, (200 + initFigInterval) * 2, 200, 200);
-  }
+
+  // container.appendChild(circle);
 }

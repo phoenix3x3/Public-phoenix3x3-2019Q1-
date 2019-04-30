@@ -2,7 +2,8 @@
   "extends": "airbnb-base",
   "rules": {
     "no-console":"warn",
-    "import/no-named-as-default": 0
+    "import/no-named-as-default": 0,
+    "no-continue":"off"
   },
   "env": {
     "browser": true
@@ -11,9 +12,6 @@
     "window": true,
     "document": true,
     "localStorage": true,
-    "FormData": true,
-    "FileReader": true,
-    "Blob": true,
     "navigator": true
   }
 }

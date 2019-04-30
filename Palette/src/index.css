@@ -49,5 +49,21 @@ html, body {
 
 .pallite__canvas-container {
   width: 100%;
-  padding: 50px;
+  position: relative;
+}
+
+.square-element, .circle-element {
+  position: absolute;
+  background-color: gray;
+}
+
+.square-element {
+  width: 200px;
+  height: 200px;
+}
+
+.circle-element {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
