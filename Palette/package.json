@@ -22,11 +22,11 @@
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-loader": "^2.1.2",
+    "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.16.0",
-    "webpack": "^4.29.4",
+    "webpack": "^5.75.0",
     "webpack-clean-plugin": "^0.2.3",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^5.0.1"
   },
   "dependencies": {
     "jquery": "^3.4.0"
